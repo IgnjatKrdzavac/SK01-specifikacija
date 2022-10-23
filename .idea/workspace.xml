@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df22e4d-dcc5-4c8b-89ee-183cf906ce76" name="Changes" comment="Project initialization">
+    <list default="true" id="2df22e4d-dcc5-4c8b-89ee-183cf906ce76" name="Changes" comment="kreiran bazicni izgled specifikacije">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk01/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
@@ -53,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666282764228</updated>
-      <workItem from="1666282765774" duration="3829000" />
+      <workItem from="1666282765774" duration="6739000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1666282981089</created>
@@ -69,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666283217802</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="kreiran bazicni izgled specifikacije">
+      <created>1666291586783</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666291586783</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +93,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project initialization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project initialization" />
+    <MESSAGE value="kreiran bazicni izgled specifikacije" />
+    <option name="LAST_COMMIT_MESSAGE" value="kreiran bazicni izgled specifikacije" />
   </component>
 </project>
