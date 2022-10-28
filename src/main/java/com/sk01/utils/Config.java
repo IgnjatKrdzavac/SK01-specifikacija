@@ -7,17 +7,18 @@ public class Config {
 
     private List<String> unsuportedFiles;
     private String maxSize;
-    private int numberOfFiles;
+    private String numberOfFiles;
     private String path;
 
     public Config(){
-        this.unsuportedFiles = new ArrayList<>();
-        this.maxSize = "100000";
-        this.numberOfFiles = 5;
-        this.path = "";
+        path = "";
+        maxSize = "";
+        numberOfFiles = "";
+        unsuportedFiles = new ArrayList<>();
+
     }
 
-    public Config(List<String> unsuportedFiles, String maxSize, int numberOfFiles, String path) {
+    public Config(List<String> unsuportedFiles, String maxSize, String numberOfFiles, String path) {
         this.unsuportedFiles = unsuportedFiles;
         this.maxSize = maxSize;
         this.numberOfFiles = numberOfFiles;
@@ -40,11 +41,11 @@ public class Config {
         this.maxSize = maxSize;
     }
 
-    public int getNumberOfFiles() {
+    public String getNumberOfFiles() {
         return numberOfFiles;
     }
 
-    public void setNumberOfFiles(int numberOfFiles) {
+    public void setNumberOfFiles(String numberOfFiles) {
         this.numberOfFiles = numberOfFiles;
     }
 
@@ -55,4 +56,16 @@ public class Config {
     public void setPath(String path) {
         this.path = path;
     }
+
+    public boolean checkArgs(String strNum) {
+
+        try {
+            Long.parseLong(strNum);
+        }
+        catch (NumberFormatException nfe) {
+            return false;
+        }
+        return true;
+    }
+
 }
