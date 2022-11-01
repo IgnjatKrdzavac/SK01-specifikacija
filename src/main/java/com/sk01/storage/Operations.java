@@ -1,11 +1,13 @@
 package com.sk01.storage;
 
+import com.sk01.exceptions.NameException;
+
 import java.io.File;
 import java.util.List;
 
 abstract public class Operations {
 
-    abstract public void storageFiles(List lista, String path);
+
 
     abstract public void deleteFiles(List files);
 
@@ -17,6 +19,6 @@ abstract public class Operations {
 
     abstract public void downloadFile(String pathFrom, String pathTo);
 
-    abstract public void rename(File file);
+    abstract public void rename(File file) throws Exception;
 
 }
