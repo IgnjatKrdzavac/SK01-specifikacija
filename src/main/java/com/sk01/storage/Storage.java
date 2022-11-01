@@ -1,5 +1,6 @@
 package com.sk01.storage;
 
+import com.google.gson.Gson;
 import com.sk01.utils.Config;
 import com.sk01.utils.StorageInfo;
 
@@ -11,7 +12,7 @@ import java.util.List;
 
 public abstract class Storage {
 
-    StorageInfo storageInfo = new StorageInfo();
+
 
     public abstract File getConfig(String path);
 
@@ -23,28 +24,28 @@ public abstract class Storage {
     public void configure(String maxSize, String numberOfFiles, List<String> unsupportedFiles) {
 
 
-        boolean size = storageInfo.getConfig().checkArgs(maxSize);  //da korisnik nije uneo nesto sto nije broj
-        boolean number = storageInfo.getConfig().checkArgs(numberOfFiles);  //da korisnik nije uneo nesto sto nije broj
+        boolean size = StorageInfo.getInstance().getConfig().checkArgs(maxSize);  //da korisnik nije uneo nesto sto nije broj
+        boolean number = StorageInfo.getInstance().getConfig().checkArgs(numberOfFiles);  //da korisnik nije uneo nesto sto nije broj
 
         if (unsupportedFiles != null) {  //dodajemo ekstenzije na vec postojece
-            unsupportedFiles.addAll(storageInfo.getConfig().getUnsuportedFiles());
+            unsupportedFiles.addAll(StorageInfo.getInstance().getConfig().getUnsuportedFiles());
         }
 
         if (size && number) {
-            editConfig(storageInfo.getConfig().getPath(), maxSize, numberOfFiles, unsupportedFiles);  //azuriramo config.json
-            readConfig(getConfig(storageInfo.getConfig().getPath()));  //azuriramo config u programu
+            editConfig(StorageInfo.getInstance().getConfig().getPath(), maxSize, numberOfFiles, unsupportedFiles);  //azuriramo config.json
+            readConfig(getConfig(StorageInfo.getInstance().getConfig().getPath()));  //azuriramo config u programu
         }
 
     }
 
     private void readConfig(File configFile) {
-        //Gson gson = new Gson();
+        Gson gson = new Gson();
 
         try {
             Reader reader = new FileReader(configFile);
-            //Config config = gson.fromJson(reader, Config.class);
+            Config config = gson.fromJson(reader, Config.class);
 
-            //StorageInfo.getStorageInfo().setConfig(config);
+            StorageInfo.getInstance().setConfig(config);
             reader.close();
         }
         catch (IOException e) {

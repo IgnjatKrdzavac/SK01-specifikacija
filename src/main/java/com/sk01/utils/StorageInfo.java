@@ -5,22 +5,36 @@ public class StorageInfo {
     private Config config;
 
 
-    public StorageInfo(){
+    private static volatile StorageInfo instance = null;
+
+    private StorageInfo(){
         init();
+
     }
+
+    public static StorageInfo getInstance(){
+
+        if(instance == null){
+
+
+            synchronized (StorageInfo.class) {
+                if(instance == null) {
+
+                    instance = new StorageInfo();
+                }
+            }
+        }
+        return instance;
+    }
+
+
+
 
 
     public void init() {
         config = new Config();
     }
 
-   /* private static final class StorageInfoHolder {
-        static final StorageInfo storageInfo = new StorageInfo();
-    }
-
-    public static StorageInfo getStorageInfo() {
-        return StorageInfoHolder.storageInfo;
-    }*/
 
     public Config getConfig() {
         return config;
