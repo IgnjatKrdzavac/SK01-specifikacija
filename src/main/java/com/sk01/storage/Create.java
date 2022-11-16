@@ -12,12 +12,12 @@ public abstract class Create {
 
     abstract public void createDir(String path, String name) throws Exception;
 
-    abstract public void createDirs(int velicinaListe);
+    abstract public void createDirs(int velicinaListe) throws Exception;
 
     abstract public void createFiles(String path) throws Exception;
 
     abstract public void createFiles(String path, String name) throws Exception;
 
-    abstract public void createFiles(int velicinaListe);
+    abstract public void createFiles(int velicinaListe) throws Exception;
 
 }

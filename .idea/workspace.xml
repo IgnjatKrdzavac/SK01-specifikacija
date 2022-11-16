@@ -6,11 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2df22e4d-dcc5-4c8b-89ee-183cf906ce76" name="Changes" comment="Dodat json dependency">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk01/exceptions/ConfigException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sk01/exceptions/ConfigException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk01/exceptions/NameException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sk01/exceptions/NameException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Create.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Create.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Operations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk01/utils/FileExtensions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Storage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk01/utils/StorageInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sk01/utils/StorageInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +50,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.." />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,6 +75,11 @@
       <updated>1666282764228</updated>
       <workItem from="1666282765774" duration="3829000" />
       <workItem from="1666470791646" duration="6348000" />
+      <workItem from="1667346073692" duration="92000" />
+      <workItem from="1667486113145" duration="956000" />
+      <workItem from="1668185722606" duration="8993000" />
+      <workItem from="1668218255426" duration="4392000" />
+      <workItem from="1668456036449" duration="2231000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1666282981089</created>

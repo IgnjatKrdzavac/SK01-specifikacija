@@ -14,14 +14,14 @@ public abstract class Storage {
 
 
 
-    public abstract File getConfig(String path);
+    public abstract File getConfig(String path) throws Exception;
 
-    public abstract void editConfig(String path, String maxSize, String maxNumOfFiles, List<String> unsupportedFiles);
+    public abstract void editConfig(String path, String maxSize, String maxNumOfFiles, List<String> unsupportedFiles) throws Exception;
 
-    public abstract void createStorage();
+    public abstract void createStorage() throws Exception;
 
 
-    public void configure(String maxSize, String numberOfFiles, List<String> unsupportedFiles) {
+    public void configure(String maxSize, String numberOfFiles, List<String> unsupportedFiles) throws Exception {
 
 
         boolean size = StorageInfo.getInstance().getConfig().checkArgs(maxSize);  //da korisnik nije uneo nesto sto nije broj
@@ -38,7 +38,7 @@ public abstract class Storage {
 
     }
 
-    private void readConfig(File configFile) {
+    private void readConfig(File configFile) throws Exception{
         Gson gson = new Gson();
 
         try {
