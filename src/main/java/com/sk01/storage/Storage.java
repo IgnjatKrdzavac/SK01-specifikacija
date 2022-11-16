@@ -18,7 +18,7 @@ public abstract class Storage {
 
     public abstract void editConfig(String path, String maxSize, String maxNumOfFiles, List<String> unsupportedFiles) throws Exception;
 
-    public abstract void createStorage() throws Exception;
+    public abstract void createStorage(String path, String storageName) throws Exception;
 
 
     public void configure(String maxSize, String numberOfFiles, List<String> unsupportedFiles) throws Exception {
