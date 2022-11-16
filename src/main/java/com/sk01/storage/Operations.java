@@ -13,7 +13,7 @@ public abstract class Operations {
 
     abstract public void deleteDir(File dir) throws Exception;
 
-    abstract public void moveFiles(List files, File dir1, File dir2) throws Exception;
+    abstract public void moveFiles(String fromPath, String toPath) throws Exception;
 
     abstract public void downloadFile(String pathFrom, String pathTo) throws Exception;
 
