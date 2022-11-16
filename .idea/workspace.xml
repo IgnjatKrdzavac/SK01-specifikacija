@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df22e4d-dcc5-4c8b-89ee-183cf906ce76" name="Changes" comment="Dodat json dependency">
+    <list default="true" id="2df22e4d-dcc5-4c8b-89ee-183cf906ce76" name="Changes" comment="Kreiran paket exceptions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk01/exceptions/ConfigException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sk01/exceptions/ConfigException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk01/exceptions/NameException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sk01/exceptions/NameException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Create.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Create.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Operations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk01/utils/FileExtensions.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,14 +41,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,6 +59,7 @@
       <updated>1666282764228</updated>
       <workItem from="1666282765774" duration="3829000" />
       <workItem from="1666470791646" duration="6348000" />
+      <workItem from="1668189118771" duration="835000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1666282981089</created>
@@ -93,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667342808498</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Kreiran paket exceptions">
+      <created>1667345848245</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667345848245</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +118,7 @@
     <MESSAGE value="Popisane metode specifikacije" />
     <MESSAGE value="StorageInfo povezan sa Configom" />
     <MESSAGE value="Dodat json dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodat json dependency" />
+    <MESSAGE value="Kreiran paket exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kreiran paket exceptions" />
   </component>
 </project>
