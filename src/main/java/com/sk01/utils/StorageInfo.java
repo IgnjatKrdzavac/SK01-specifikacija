@@ -15,11 +15,8 @@ public class StorageInfo {
     public static StorageInfo getInstance(){
 
         if(instance == null){
-
-
             synchronized (StorageInfo.class) {
                 if(instance == null) {
-
                     instance = new StorageInfo();
                 }
             }
@@ -28,13 +25,9 @@ public class StorageInfo {
     }
 
 
-
-
-
     public void init() {
         config = new Config();
     }
-
 
     public Config getConfig() {
         return config;

@@ -5,19 +5,17 @@ import com.sk01.exceptions.NameException;
 import java.io.File;
 import java.util.List;
 
-abstract public class Operations {
+public abstract class Operations {
 
+    abstract public void deleteFiles(List files) throws Exception;
 
+    abstract public void deleteFiles(String path) throws Exception;
 
-    abstract public void deleteFiles(List files);
+    abstract public void deleteDir(File dir) throws Exception;
 
-    abstract public void deleteFiles(String path);
+    abstract public void moveFiles(List files, File dir1, File dir2) throws Exception;
 
-    abstract public void deleteDir(File dir);
-
-    abstract public void moveFiles(List files, File dir1, File dir2);
-
-    abstract public void downloadFile(String pathFrom, String pathTo);
+    abstract public void downloadFile(String pathFrom, String pathTo) throws Exception;
 
     abstract public void rename(File file) throws Exception;
 
