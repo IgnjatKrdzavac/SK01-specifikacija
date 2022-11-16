@@ -8,9 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Create.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Create.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Operations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Storage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk01/utils/StorageInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sk01/utils/StorageInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

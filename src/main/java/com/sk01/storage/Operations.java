@@ -17,6 +17,6 @@ public abstract class Operations {
 
     abstract public void downloadFile(String pathFrom, String pathTo) throws Exception;
 
-    abstract public void rename(File file) throws Exception;
+    abstract public void rename(File file, String name) throws Exception;
 
 }
