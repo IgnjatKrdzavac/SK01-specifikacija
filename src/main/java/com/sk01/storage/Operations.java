@@ -7,16 +7,14 @@ import java.util.List;
 
 public abstract class Operations {
 
-    abstract public void deleteFiles(List files) throws Exception;
-
     abstract public void deleteFiles(String path) throws Exception;
 
-    abstract public void deleteDir(File dir) throws Exception;
+    abstract public void deleteDir(String path) throws Exception;
 
     abstract public void moveFiles(String fromPath, String toPath) throws Exception;
 
     abstract public void downloadFile(String pathFrom, String pathTo) throws Exception;
 
-    abstract public void rename(File file, String name) throws Exception;
+    abstract public void rename(String path, String name) throws Exception;
 
 }
