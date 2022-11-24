@@ -6,7 +6,7 @@ import java.util.List;
 
 public abstract class Search {
 
-    abstract public List<File> getFile(String path) throws Exception;
+    abstract public File getFile(String path) throws Exception;
 
     abstract public List<File> getFiles(String podstring) throws Exception;
 
@@ -16,7 +16,7 @@ public abstract class Search {
 
     abstract public boolean containsFiles(String path, List fileNames) throws Exception;
 
-    abstract public File getDir(String fileName) throws Exception;
+    abstract public String getDir(String fileName) throws Exception;
 
     abstract public List<File> sortByName(List files) throws Exception;
 
