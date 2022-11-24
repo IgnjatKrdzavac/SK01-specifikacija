@@ -1,7 +1,7 @@
 package com.sk01.storage;
 
 import java.io.File;
-import java.sql.Time;
+import java.util.Date;
 import java.util.List;
 
 public abstract class Search {
@@ -24,7 +24,7 @@ public abstract class Search {
 
     abstract public List<File> sortByDate(List files) throws Exception;
 
-    abstract public List<File> getFiles(String path, Time pocetak, Time kraj) throws Exception;
+    abstract public List<File> getFiles(String path, Date pocetak, Date kraj) throws Exception;
 
     abstract public List<File> filtrate(String string) throws Exception;
 
