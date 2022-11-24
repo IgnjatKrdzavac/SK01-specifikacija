@@ -14,6 +14,8 @@ public abstract class Search {
 
     abstract public List<File> getAllFiles(String path) throws Exception;
 
+    abstract public List<File> getAllFiles() throws Exception;
+
     abstract public boolean containsFiles(String path, List fileNames) throws Exception;
 
     abstract public String getDir(String fileName) throws Exception;
