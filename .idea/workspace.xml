@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df22e4d-dcc5-4c8b-89ee-183cf906ce76" name="Changes" comment="Added deleteAll">
+    <list default="true" id="2df22e4d-dcc5-4c8b-89ee-183cf906ce76" name="Changes" comment="Time class to Date">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Search.java" afterDir="false" />
     </list>
@@ -76,7 +76,7 @@
       <workItem from="1668185722606" duration="8993000" />
       <workItem from="1668218255426" duration="4392000" />
       <workItem from="1668456036449" duration="2231000" />
-      <workItem from="1669300857752" duration="7833000" />
+      <workItem from="1669300857752" duration="8956000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1666282981089</created>
@@ -169,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669330867254</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Time class to Date">
+      <created>1669331634147</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1669331634147</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +205,7 @@
     <MESSAGE value="Added method" />
     <MESSAGE value="Renamed method" />
     <MESSAGE value="Added deleteAll" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added deleteAll" />
+    <MESSAGE value="Time class to Date" />
+    <option name="LAST_COMMIT_MESSAGE" value="Time class to Date" />
   </component>
 </project>

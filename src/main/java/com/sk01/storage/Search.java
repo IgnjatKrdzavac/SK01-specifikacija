@@ -20,9 +20,9 @@ public abstract class Search {
 
     abstract public String getDir(String fileName) throws Exception;
 
-    abstract public List<File> sortByName(List files) throws Exception;
+    abstract public List<File> sortByName(String dirPath) throws Exception;
 
-    abstract public List<File> sortByDate(List files) throws Exception;
+    abstract public List<File> sortByDate(String dirPath) throws Exception;
 
     abstract public List<File> getFiles(String path, Date pocetak, Date kraj) throws Exception;
 
