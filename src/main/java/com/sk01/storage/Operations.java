@@ -11,6 +11,8 @@ public abstract class Operations {
 
     abstract public void deleteDir(String path) throws Exception;
 
+    abstract public void deleteAll(String path) throws Exception;
+
     abstract public void moveFiles(String fromPath, String toPath) throws Exception;
 
     abstract public void downloadFile(String pathFrom, String pathTo) throws Exception;

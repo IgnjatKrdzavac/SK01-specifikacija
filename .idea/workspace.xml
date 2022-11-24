@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df22e4d-dcc5-4c8b-89ee-183cf906ce76" name="Changes" comment="Added method">
+    <list default="true" id="2df22e4d-dcc5-4c8b-89ee-183cf906ce76" name="Changes" comment="Renamed method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Operations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
       <workItem from="1668185722606" duration="8993000" />
       <workItem from="1668218255426" duration="4392000" />
       <workItem from="1668456036449" duration="2231000" />
-      <workItem from="1669300857752" duration="6755000" />
+      <workItem from="1669300857752" duration="7188000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1666282981089</created>
@@ -154,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669310767749</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Renamed method">
+      <created>1669330488022</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669330488022</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +189,7 @@
     <MESSAGE value="Changed return values of methods" />
     <MESSAGE value="Fixed return values of methods" />
     <MESSAGE value="Added method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added method" />
+    <MESSAGE value="Renamed method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed method" />
   </component>
 </project>
