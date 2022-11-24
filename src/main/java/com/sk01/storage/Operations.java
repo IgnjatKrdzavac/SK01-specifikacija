@@ -7,7 +7,7 @@ import java.util.List;
 
 public abstract class Operations {
 
-    abstract public void deleteFiles(String path) throws Exception;
+    abstract public void deleteFile(String path) throws Exception;
 
     abstract public void deleteDir(String path) throws Exception;
 
