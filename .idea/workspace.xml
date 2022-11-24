@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2df22e4d-dcc5-4c8b-89ee-183cf906ce76" name="Changes" comment="Izmenjeni parametri nekih metoda">
+    <list default="true" id="2df22e4d-dcc5-4c8b-89ee-183cf906ce76" name="Changes" comment="Added exception throwing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sk01/storage/Search.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +76,7 @@
       <workItem from="1668185722606" duration="8993000" />
       <workItem from="1668218255426" duration="4392000" />
       <workItem from="1668456036449" duration="2231000" />
+      <workItem from="1669300857752" duration="2117000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <created>1666282981089</created>

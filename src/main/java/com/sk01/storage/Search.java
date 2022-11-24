@@ -6,15 +6,15 @@ import java.util.List;
 
 public abstract class Search {
 
-    abstract public void getFiles(File dir) throws Exception;
+    abstract public void getFile(String path) throws Exception;
 
-    abstract public void getFiles(String podstring, String name) throws Exception;
+    abstract public void getFiles(String podstring) throws Exception;
 
-    abstract public void getFiles(String extension) throws Exception;
+    abstract public void getFilesWithExtension(String extension) throws Exception;
 
-    abstract public void getAllFiles(File dir) throws Exception;
+    abstract public void getAllFiles(String path) throws Exception;
 
-    abstract public boolean containsFiles(File dir, List fileNames) throws Exception;
+    abstract public boolean containsFiles(String path, List fileNames) throws Exception;
 
     abstract public File getDir(String fileName) throws Exception;
 
@@ -22,7 +22,7 @@ public abstract class Search {
 
     abstract public void sortByDate(List files) throws Exception;
 
-    abstract public void getFiles(File dir, Time pocetak, Time kraj) throws Exception;
+    abstract public void getFiles(String path, Time pocetak, Time kraj) throws Exception;
 
     abstract public void filtrate(String string) throws Exception;
 
