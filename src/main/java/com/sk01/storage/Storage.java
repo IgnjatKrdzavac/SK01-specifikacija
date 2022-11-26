@@ -24,16 +24,16 @@ public abstract class Storage {
     public void configure(String maxSize, String numberOfFiles, List<String> unsupportedFiles) throws Exception {
 
 
-        boolean size = StorageInfo.getInstance().getConfig().checkArgs(maxSize);  //da korisnik nije uneo nesto sto nije broj
-        boolean number = StorageInfo.getInstance().getConfig().checkArgs(numberOfFiles);  //da korisnik nije uneo nesto sto nije broj
+        boolean size = StorageInfo.getInstance().getConfig().checkArgs(maxSize);
+        boolean number = StorageInfo.getInstance().getConfig().checkArgs(numberOfFiles);
 
-        if (unsupportedFiles != null) {  //dodajemo ekstenzije na vec postojece
+        if (unsupportedFiles != null) {
             unsupportedFiles.addAll(StorageInfo.getInstance().getConfig().getUnsuportedFiles());
         }
 
         if (size && number) {
-            editConfig(StorageInfo.getInstance().getConfig().getPath(), maxSize, numberOfFiles, unsupportedFiles);  //azuriramo config.json
-            readConfig(getConfig(StorageInfo.getInstance().getConfig().getPath()));  //azuriramo config u programu
+            editConfig(StorageInfo.getInstance().getConfig().getPath(), maxSize, numberOfFiles, unsupportedFiles);
+            readConfig(getConfig(StorageInfo.getInstance().getConfig().getPath()));
         }
 
     }
